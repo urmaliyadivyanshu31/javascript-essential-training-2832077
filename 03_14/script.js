@@ -5,19 +5,22 @@
  * - Add at least 5 book objects.
  */
 
-import Backpack from "./Backpack.js";
+import Book from "./Backpack.js";
 
-const everydayPack = new Backpack(
-  "Everyday Backpack",
-  30,
-  "grey",
-  15,
-  26,
-  26,
-  false,
-  "December 5, 2018 15:00:00 PST"
-);
+const newBook1 = new Book(
+    
+    "The Alchemist",
+    "Paulo Coelho",
+    197,
+    
+)
 
-console.log("The everydayPack object:", everydayPack);
-console.log("The pocketNum value:", everydayPack.pocketNum);
-console.log("Days since aquired:", everydayPack.backpackAge());
+const newBook2 = new Book(
+
+    "The Power",
+    "Rhonda Byrne",
+    224,
+)
+
+console.log(newBook1)
+console.log(newBook2)
