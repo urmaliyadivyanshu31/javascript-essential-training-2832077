@@ -5,6 +5,8 @@
  * Class expression:  const Name = class {}
  */
 
+
+// class Backpack {constructor(define param){define properties}}
 class Backpack {
   constructor(
     // Defines parameters:

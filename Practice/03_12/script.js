@@ -6,3 +6,17 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+
+import Mobile from "./Mobile.js"
+
+const mobile1 = new Mobile(
+    "Samsung",
+    "Black",
+    5.5,
+    "150g",
+    true,
+    "12MP",
+);
+
+console.log(mobile1)

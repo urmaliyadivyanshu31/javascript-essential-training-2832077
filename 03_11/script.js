@@ -3,6 +3,11 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
  */
 
+
+// function Name(@params){this.@params = @params} 
+
+
+
 function Backpack(
   name,
   volume,
@@ -39,3 +44,5 @@ const everydayPack = new Backpack(
   26,
   false
 );
+
+console.log("The everydayPack object:", everydayPack);
