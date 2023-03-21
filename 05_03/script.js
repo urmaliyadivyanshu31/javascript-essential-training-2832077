@@ -20,6 +20,10 @@ const everydayPack = new Backpack(
 
 const main = document.querySelector(".maincontent");
 
+
+// document.getElementsByClassName()
+// document.getElementById()
+
 const content = `
   <article class="backpack" id="everyday">
     <figure class="backpack__image">
